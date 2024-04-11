@@ -16,6 +16,5 @@ document.getElementById("myTable").addEventListener("click", function(e) {
         let name = row.querySelector(".nameInput").value;
         let surname = row.querySelector(".surnameInput").value;
         let age = row.querySelector(".ageInput").value;
-        console.log("Name:", name, "Surname:", surname, "Age:", age);
     }
 });
